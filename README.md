@@ -10,16 +10,18 @@ O pacote console-msg é utilizado para:
 
 ## Instalação
 
-Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar nome_do_pacote
+Use o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar console-msg-jb
 
 ```bash
-pip install console-msg
+pip install console-msg-jb
 ```
 
 ## Uso
 
 ```python
 from console-msg.alert_msgs import *
+# or 
+# from console_msg_jb.alert_msgs import emsg, imsg, smsg, almsg
 
 almsg("Alerta")
 imsg("informação")
@@ -30,6 +32,8 @@ emsg("Erro")
 
 ```python
 from console-msg.alert_msgs import *
+# or 
+# from console_msg_jb.alert_msgs import emsg, imsg, smsg, almsg, BGColor
 
 almsg("Alerta", BGColor.BLUE)
 imsg("informação", BGColor.YELLOW))
