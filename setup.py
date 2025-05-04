@@ -8,7 +8,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="console-msg-jb",
-    version="1.0.0",
+    version="1.0.1",
     author="JBSILVA",
     author_email="jbsivla.dev@outlook.com",
     description="Imprime mensagens com cores personalizadas no terminal",
