@@ -26,21 +26,21 @@ imsg("informação")
 smsg("Sucesso")
 emsg("Erro")
 ```
-![image](https://github.com/user-attachments/assets/be686756-0fbf-482b-b2a4-3617de09c0bd)
+![img1](image.png)
 
 ```python
 from console-msg.alert_msgs import *
 
-almsg("Alerta", 'blue')
-imsg("informação", "yellow")
-smsg("Sucesso", 'red')
-emsg("Erro", 'cyan')
+almsg("Alerta", BGColor.BLUE)
+imsg("informação", BGColor.YELLOW))
+smsg("Sucesso", BGColor.RED)
+emsg("Erro", BGColor.CYAN)
 ```
-![image](https://github.com/user-attachments/assets/e49949c1-233c-4950-acd7-3649dd5323d9)
+![img2](image-1.png)
 
 
 ## Autor
-Meu_nome
+JB Silva
 
 ## Licença
 [MIT](https://choosealicense.com/licenses/mit/)

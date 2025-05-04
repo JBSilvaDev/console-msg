@@ -7,11 +7,11 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
-    version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    name="console-msg-jb",
+    version="1.0.0",
+    author="JBSILVA",
+    author_email="jbsivla.dev@outlook.com",
+    description="Imprime mensagens com cores personalizadas no terminal",
     long_description=page_description,
     long_description_content_type="text/markdown",
     url="https://github.com/JBSilvaDev/console-msg",
