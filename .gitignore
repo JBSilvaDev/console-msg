@@ -113,7 +113,7 @@ ENV/
 env.bak/
 venv.bak/
 image-processing-package-master/
-a/
+*.ipynb
 
 # Spyder project settings
 .spyderproject
