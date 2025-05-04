@@ -19,7 +19,7 @@ pip install console-msg-jb
 ## Uso
 
 ```python
-from console-msg.alert_msgs import *
+from console_msg_jb.alert_msgs import *
 # or 
 # from console_msg_jb.alert_msgs import emsg, imsg, smsg, almsg
 
@@ -31,7 +31,7 @@ emsg("Erro")
 ![img1](image.png)
 
 ```python
-from console-msg.alert_msgs import *
+from console_msg_jb.alert_msgs import *
 # or 
 # from console_msg_jb.alert_msgs import emsg, imsg, smsg, almsg, BGColor
 
